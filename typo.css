@@ -1,0 +1,42 @@
+.progressbar_class > div > div {
+background-color: rgba(44, 62, 80, 0.95) !important;
+}
+
+.li {
+    border-bottom:thin black solid;  
+}
+
+.verticaline {
+  border-left: thick black solid;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(133, 88, 88);
+  border-radius: 50%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+}
+
+
+.btn-BC
+{
+background-color: rgba(44, 62, 80, 0.0);
+color:#FFF;
+font-size: 0.85vw;
+border-color: rgba(91,105,113,0.0);
+}
+
+
+.btn-BC:focus, .btn-BC:hover, .btn-BC:active, .btn-BC.active, .open .dropdown-toggle.btn-BC 
+{
+background-color: rgba(143,115,50,0.75);
+color:#FFF;
+font-size: 1.25vw;
+border-color: rgba(91,105,113,0.0);
+}
+
